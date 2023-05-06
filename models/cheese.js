@@ -2,7 +2,7 @@ const mongoose = require('./connection')
 
 const cheeseSchema = new mongoose.Schema({
     name: String,
-    contryOfOrigin: String,
+    origin: String,
     image: String,
 }, {timestamps: true})
 
